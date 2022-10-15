@@ -2,7 +2,7 @@ import './styles/global.css'
 import './styles/style.css';
 import introImage from './assets/photo.jpg'
 import aboutImage from './assets/about2.jpg'
-
+import {Project} from './components/Project'
 /*
 import './scripts/contact-form.js'
 import './scripts/imagesloaded.pkgd.min.js'
@@ -108,140 +108,25 @@ export function App() {
 
 
       <section  className='mx-auto max-w-[1200px] w-full bg-gray-800 px-10 py-12  mt-10 '>
+        
               <h3 className='text-violet-900 text-xl font-bold capitalize'>
                 My portfloio
               </h3>
             
             <div className='grid grid-cols-3 gap-9 mt-12 relative'>
               
-              <div className="content-image">
-                <a href={aboutImage} className="portfolio-popup">
-                  
-                  <img src={aboutImage} alt="" />
+              <Project/>
 
+              <Project/>
 
-                  <div className="image-overlay"> </div>
-                  <div className="portfolio-caption">
-                    
-                    <div className="title">
-                      <h4 className='text-2xl text-gray-100'>Ignite Lab Design System </h4>
-                    </div>
-                    <div className="subtitle">
-                      <span className='text-2xl text-gray-100' >React </span>
-                    </div>
+              <Project/>
 
-                  </div>
-               </a>
-              </div>
+              <Project/>
 
+              <Project/>
 
-              <div className="content-image">
-                <a href={aboutImage} className="portfolio-popup">
-                  
-                  <img src={aboutImage} alt="" />
-
-
-                  <div className="image-overlay"> </div>
-                  <div className="portfolio-caption">
-                    
-                    <div className="title">
-                      <h4 className='text-2xl text-gray-100'>Ignite Lab Design System</h4>
-                    </div>
-                    <div className="subtitle">
-                      <span className='text-2xl text-gray-100' >React</span>
-                    </div>
-
-                  </div>
-               </a>
-              </div>
-
-
-
-              <div className="content-image">
-                <a href={aboutImage} className="portfolio-popup">
-                  
-                  <img src={aboutImage} alt="" />
-
-
-                  <div className="image-overlay"> </div>
-                  <div className="portfolio-caption">
-                    
-                    <div className="title">
-                      <h4 className='text-2xl text-gray-100'>Ignite Lab Design System</h4>
-                    </div>
-                    <div className="subtitle">
-                      <span className='text-2xl text-gray-100' > React </span>
-                    </div>
-
-                  </div>
-               </a>
-              </div>
-
-
-
-              <div className="content-image">
-                <a href={aboutImage} className="portfolio-popup">
-                  
-                  <img src={aboutImage} alt="" />
-
-
-                  <div className="image-overlay"> </div>
-                  <div className="portfolio-caption">
-                    
-                    <div className="title">
-                      <h4 className='text-2xl text-gray-100'>Ignite Lab Design System</h4>
-                    </div>
-                    <div className="subtitle">
-                      <span className='text-2xl text-gray-100' >React</span>
-                    </div>
-
-                  </div>
-               </a>
-              </div>
-
-
-
-              <div className="content-image">
-                <a href={aboutImage} className="portfolio-popup">
-                  
-                  <img src={aboutImage} alt="" />
-
-
-                  <div className="image-overlay"> </div>
-                  <div className="portfolio-caption">
-                    
-                    <div className="title">
-                      <h4 className='text-2xl text-gray-100'>Ignite Lab Design System</h4>
-                    </div>
-                    <div className="subtitle">
-                      <span className='text-2xl text-gray-100' >React</span>
-                    </div>
-
-                  </div>
-               </a>
-              </div>
-
-
-
-              <div className="content-image">
-                <a href={aboutImage} className="portfolio-popup">
-                  
-                  <img src={aboutImage} alt="" />
-
-
-                  <div className="image-overlay"> </div>
-                  <div className="portfolio-caption">
-                    
-                    <div className="title">
-                      <h4 className='text-2xl text-gray-100'>Ignite Lab Design System</h4>
-                    </div>
-                    <div className="subtitle">
-                      <span className='text-2xl text-gray-100' >React</span>
-                    </div>
-
-                  </div>
-               </a>
-              </div>
+              <Project/>
+             
 
 
 
