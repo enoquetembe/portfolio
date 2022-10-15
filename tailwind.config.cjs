@@ -44,7 +44,12 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: 'Roboto, sans-serif',
-      }
+      },
+
+      backgroundImage: {
+        phot: "url('./src/assets/photo.jpg')",
+      },
+      
     },
   },
   plugins: [],
